@@ -1,0 +1,111 @@
+
+:root{
+    --main-color:#53392C;
+    --black:#13131a;
+    --bg:#010103;
+    --border:0.1rem solid rgba(255,255,255,0.3);
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+.navbar-toggler {
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.navbar-dark .navbar-toggler {
+    background-color: #53392C;
+}
+
+.bg-dark {
+
+    background-color: #ffffff !important;
+    border-bottom: 0.5rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+   
+}
+
+.navbar-nav a{
+    justify-content: center !important;
+
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+margin-left: 100px;}
+
+
+#sidebar {
+    background-color:#519B7A!important;
+    border: 0.2rem solid var(--main-color);
+
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+.text-white {
+    color: #53392C !important;
+    font-size: 1.8rem;
+}
+
+.text-white a{
+   margin-left: 40px;
+   margin-top: 30px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.8rem;
+    transition: .2s;
+
+   
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+
+}
+
+
+@media (min-width: 768px) {
+    #sidebar {
+        display: none;
+    }
+}
