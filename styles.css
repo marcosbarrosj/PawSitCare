@@ -373,6 +373,7 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 }
 
 .conteiner-geral22{
+    width: 90%;
     padding: 10px;
     display: flex;
     background-color: #e7e7e7ad;
@@ -392,6 +393,7 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 }
 
 .conteiner-gera22{
+    width: 90%;
     border: 1px solid #519B7A;  
 
     padding: 10px;
