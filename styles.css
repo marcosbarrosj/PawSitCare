@@ -136,7 +136,6 @@ text-shadow: 7px 10px 6px rgba(0,0,0,0.6);
 
 
 .container-txt1 h1 {
-width: 600px;
 font-size: 35pt;
 
 
@@ -224,11 +223,14 @@ font-size: 20pt;
        
     }
 
-.container-txt {
-top: 50%;
-padding: none; 
-
-}
+    .container-txt {
+        position: none;
+        top: 40%;
+        padding: 0; 
+     
+        
+        
+        }
 
 
 .container-txt1 h1 {
