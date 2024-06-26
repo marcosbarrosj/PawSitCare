@@ -359,6 +359,13 @@ main .conteiner .conteiner-geral{
 
 
 }
+/* parte 2 */
+
+main .conteiner .conteiner-geral .conteiner-geral2{
+    padding: 10px;
+
+}
+
 .conteiner-geral222{
     margin-top: 10px;
     margin-right: 20px;
@@ -366,10 +373,14 @@ main .conteiner .conteiner-geral{
 }
 
 .conteiner-geral22{
-    padding: 8px;
-
+    padding: 10px;
     display: flex;
-    background-color: #e7e7e7;
+    background-color: #e7e7e7ad;
+    border-top: 1px solid #519B7A;
+    border-left: 1px solid #519B7A;
+    border-right: 1px solid #519B7A;
+
+
 }
 
 .conteiner-geral2222 p{
@@ -380,11 +391,14 @@ main .conteiner .conteiner-geral{
   text-align: left;
 }
 
-main .conteiner .conteiner-geral .conteiner-geral2{
-    background: #3434e4;
-    padding: 10px;
+.conteiner-gera22{
+    border: 1px solid #519B7A;  
 
+    padding: 10px;
+    display: flex;
+    background-color: white;
 }
+
 
 
  
@@ -454,7 +468,6 @@ main .conteiner .conteiner-geral .conteiner-geral2{
         text-align: center;
         margin-bottom: 1000px;
         padding: 10px;
-        background-color: aqua;
         margin-left: 0;
         margin-right: 0;
     
@@ -463,6 +476,8 @@ main .conteiner .conteiner-geral .conteiner-geral2{
     
     main .conteiner .conteiner-geral{
         grid-template-columns: none;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     
