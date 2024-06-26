@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
+
 :root{
     --main-color:#53392C;
     --black:#13131a;
@@ -120,12 +123,12 @@ position: relative;
 }
 .container-txt {
 position: absolute;
-top: 30%;
+top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
-padding: 20px 300px; 
-border-radius: 10px;
+padding: 20px ; 
+width: 50%;
 
 
 }
@@ -137,20 +140,59 @@ text-shadow: 7px 10px 6px rgba(0,0,0,0.6);
 
 .container-txt1 h1 {
 font-size: 35pt;
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 
 
 }
 
 .container-txt1 p {
 font-size: 20pt;
+font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
 
 }
+
+
+.container-txt .container-txt1 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0); 
+    border: 1px solid #e7e7e7; 
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+    box-shadow: 0 0 15px #000000fc;
+    
+
+}
+.container-txt .container-txt1 button:hover{
+    background: rgba(0, 0, 0, 0.334); 
+    
+}
+
+
+
 .container-txt2{
-    padding: 20px;
+    padding: 20px ;
     margin-top: 20px;
     background: white;
     text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 13px 5px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 5px 13px 5px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 5px 13px 5px -1px rgba(0,0,0,0.74);
+    font-size: 11pt;
+    color: #53392C;
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+
 }
 
 .container-button .button{
@@ -186,19 +228,102 @@ font-size: 20pt;
        
     }
 
-
-
-
-
-
-    
-    .container-button.button .text {
+    .container-txt3{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 20px;
     }
 
+   .container-txt3 .input-container {
+        width: 20%;
+        position: relative;
+    }
+
+    .container-txt3 .input-container input{
+        padding: 10px 20px;
+        border: 1px solid #519B7A; 
+        cursor: pointer;
+        border-radius: 5px; 
+
+    }
+
+    .container-txt3 .input-container input::placeholder{
+        color: #519B7A;
+        text-align: end;
+    }
+
+    .input-container label{
+        position: absolute;
+        top: 2px;
+        font-size: 15pt;
+        color: #53392C;
+      
 
 
 
-@media (min-width: 768px) {
+    }
+
+.container-txt3 button{
+color: #519B7A;
+padding: 10px;
+border: 1px solid #519B7A;  
+background-color: #ffffff;
+border-radius: 5px;
+cursor: pointer;
+font-size: 10pt;
+
+
+}
+
+.container-txt3 button:hover{
+    background-color: #519B7A;
+    color: white;
+  
+    
+    
+    }
+    
+
+.container-txt3 .selectores{
+display: grid;
+grid-template-columns: 50% 50%; 
+margin-top: 10px; 
+cursor: pointer;    
+}
+
+    .container-txt3 .selectores input{
+        padding: 10px;
+        border: 1px solid #519B7A;
+        color: #519B7A;
+
+    }
+
+/* ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´ */
+
+ main .conteiner{
+    text-align: center;
+    margin-bottom: 1000px;
+    padding: 10px;
+    background-color: aqua;
+    margin-left: 20%;
+    margin-right: 20%;
+
+   
+}
+
+main .conteiner .conteiner-geral{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
+ 
+
+
+
+@media (min-width: 1200px) {
     #sidebar {
         display: none;
     }
@@ -207,7 +332,7 @@ font-size: 20pt;
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .container-Parte1 .container-img{
         width: 100%;
         height: 300px;
@@ -218,7 +343,6 @@ font-size: 20pt;
 
         background-color: #519B7A !important;
         border-top: 0.3rem solid var(--main-color);
-
         border-bottom: 0.2rem solid var(--main-color);
        
     }
@@ -234,11 +358,11 @@ font-size: 20pt;
 
 
 .container-txt1 h1 {
-    width: 300px;
     font-size: 18pt;
     
     
     }
+
 
     .container-txt2{
         display: none;
@@ -250,10 +374,29 @@ font-size: 20pt;
     
     
     }
+    .container-txt .container-txt1 button{
+        padding: 8px 12px;
+        font-size: 10pt;
+        cursor: pointer;
+    }
     
     
     
-
+    main .conteiner{
+        text-align: center;
+        margin-bottom: 1000px;
+        padding: 10px;
+        background-color: aqua;
+        margin-left: 0;
+        margin-right: 0;
+    
+       
+    }
+    
+    main .conteiner .conteiner-geral{
+        grid-template-columns: none;
+    }
+    
     
 
     
