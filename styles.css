@@ -152,7 +152,7 @@ font-style: normal;
 
 }
 
-.container-txt1 p {
+.container-txt1 h3 {
 font-size: 20pt;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -616,7 +616,6 @@ main .conteiner4{
 text-align: center;
 margin-bottom: 10px;
 padding: 10px;
-border-bottom: 1px solid #519B7A; 
 margin-top: 40px;
 
 
@@ -698,11 +697,9 @@ main .conteiner4 .content-geral .content-geral3{
 
 footer .conteiner{
     text-align: center;
-    margin-bottom: 10px;
     padding: 10px;
-    border-bottom: 1px solid #519B7A;  
-    background: blue;
-    margin-bottom: 100px;
+    background: #519B7A;
+    
 
    
 
@@ -712,30 +709,73 @@ footer .conteiner{
 footer .conteiner .content-geral{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-bottom: 1px solid white;
+
+
 }
+
+footer .conteiner .content-geral h3{
+    color: white;
+    font-size: 12pt;
+    text-align: left;
+   
+}
+footer .conteiner .content-geral p{
+    color: white;
+    font-size: 8pt;
+   
+}
+
 
 
 /* ´´´´´´´´´´´´´´´´´´´´´´´´´´ content-gera parte 1´´´´´´´´´´´´´´´´´´´´´ */
 
 footer .conteiner .content-geral .content-geral1{
-    background: #a9851a;
+    padding: 10px;
+
+
 }
 /* ´´´´´´´´´´´´´´´´´´´´´´´´´´ content-gera parte 2´´´´´´´´´´´´´´´´´´´´´ */
 
 
 footer .conteiner .content-geral .content-geral2{
-    background: #96185f;
+    padding: 10px;
+
+
 }
 
 /* ´´´´´´´´´´´´´´´´´´´´´´´´´´ content-gera parte 3´´´´´´´´´´´´´´´´´´´´´ */
 
 footer .conteiner .content-geral .content-geral3{
-    background: #0dcb4c;
+    padding: 10px;
+
+
 }
 
+footer .conteiner .content-geral .content-geral3 p{
+    margin-top: 30px;
+}
+
+footer .conteiner .content-geral .content-geral3 .content-geral3icones{
+    display: flex;
+    gap: 20px
+    
+}
+
+footer .conteiner .content-geral .content-geral3 .content-geral3icones i{
+color: white; 
+font-size: 15pt;   
+}
+
+
+
+footer .conteiner .rodape p{ 
+    color: white;
+    text-align: center;
+}
 
 
 /* midia */
@@ -881,7 +921,19 @@ footer .conteiner .content-geral{
     margin-right: none;
 }
 
+footer .conteiner .content-geral .content-geral1{
+    border-bottom: 1px solid white;
 
+
+}
+/* ´´´´´´´´´´´´´´´´´´´´´´´´´´ content-gera parte 2´´´´´´´´´´´´´´´´´´´´´ */
+
+
+footer .conteiner .content-geral .content-geral2{
+    border-bottom: 1px solid white;
+
+
+}
 
 
 
