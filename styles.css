@@ -302,7 +302,7 @@ cursor: pointer;
 
  main .conteiner{
     text-align: center;
-    margin-bottom: 1000px;
+    margin-bottom: 10px;
     padding: 10px;
     border-bottom: 1px solid #519B7A;  
 
@@ -384,19 +384,22 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 }
 
 .conteiner-geral2222 p{
-    font-size: 10pt;
-    font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: left;
+font-size: 10pt;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+text-align: left;
 }
+.conteiner-gera22totatl{
+border: 1px solid #519B7A;
 
+
+}
 .conteiner-gera22{
-    border: 1px solid #519B7A;  
 
-    padding: 10px;
-    display: flex;
-    background-color: white;
+padding: 10px;
+display: flex;
+background-color: white;
 }
 
 
