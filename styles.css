@@ -101,6 +101,34 @@ margin-left: 100px;}
 
 }
 
+nav .input-container{
+    position: relative;
+
+}
+
+nav .input-container input{
+    padding: 10px 20px;
+    border: 1px solid #519B7A; 
+    cursor: pointer;
+    border-radius: 5px; }
+
+nav .input-container input::placeholder{
+    color: #519B7A;
+    text-align: end;
+    }
+
+
+    nav .input-container label{
+        position: absolute;
+        top: 2px;
+        font-size: 15pt;
+        color: #53392C;
+        
+        
+        
+        
+        }
+
 /* ---------------------------------------------------- */
 /* container-Parte1 */
 
@@ -788,6 +816,10 @@ footer .conteiner .rodape p{
         display: none;
     }
 
+    nav .input-container{
+display: none;    
+    }
+    
     
 }
 

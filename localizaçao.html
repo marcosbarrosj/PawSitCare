@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localização</title>
+    <meta name="theme-color" content="#519B7A"> <!-- Altere a cor aqui -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="localizaçao.css">
+</head>
+<body>
+
+    <div class="container-txt2">
+        <p>Animais de estimação
+        </p>
+
+        <div class="container-button">
+            <button class="button">
+                <span><img width="30" height="30" src="https://img.icons8.com/pastel-glyph/30/53392C/dog--v4.png" alt="dog--v4"/>
+                </span>
+                <span class="text"><a href="#">Cachorro</a></span>
+            </button>
+            <button class="button">
+                <span><img width="30" height="30" src="https://img.icons8.com/sf-black-filled/30/53392C/cat.png" alt="cat"/>
+                </span>
+                <span class="text"><a href="#">Gato</a></span>
+            </button>
+        </div>
+        <div class="container-txt3">
+
+            <div>
+                <p>Na casa da babá</p>
+                <div class="container-button">
+                    <button class="button">
+                        <span><img width="30" height="30" src="https://img.icons8.com/external-outline-deni-mao/30/53392C/external-Luggage-travel-and-vacation-outline-deni-mao.png" alt="external-Luggage-travel-and-vacation-outline-deni-mao"/>
+                        </span>
+                        <span class="text"><a href="#">Ficar</a></span>
+                    </button>
+                    <button class="button">
+                        <span><img width="30" height="30" src="https://img.icons8.com/glyph-neue/30/53392C/sun--v1.png" alt="sun--v1"/>
+                        </span>
+                        <span class="text"><a href="#">Creche</a></span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <p>Na sua casa</p>
+                <div class="container-button">
+                    <button class="button">
+                        <span><img width="30" height="30" src="https://img.icons8.com/external-victoruler-outline-victoruler/30/53392C/external-babysitter-baby-victoruler-outline-victoruler.png" alt="external-babysitter-baby-victoruler-outline-victoruler"/>
+                        </span>
+                        <span class="text"><a href="#">Babá</a></span>
+                    </button>
+                    <button class="button">
+                        <span><img width="30" height="30" src="https://img.icons8.com/glyph-neue/30/53392C/services.png" alt="services"/>
+                        </span>
+                        <span class="text"><a href="#">Serviços</a></span>
+                    </button>
+                    <button class="button">
+                        <span><img width="30" height="30" src="https://img.icons8.com/external-basicons-line-edtgraphics/30/53392C/external-route-outdoor-activities-edtim-outline-edtim-2.png" alt="external-route-outdoor-activities-edtim-outline-edtim-2"/>
+                        <span class="text"><a href="#">Passeio</a></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-txt3">
+            <div>
+                <p>Animal de estimação sentado perto</p>
+                <div class="input-container">
+                    <label for="name"><i class="bi bi-geo-alt"></i></label>
+                <input type="text" placeholder="Local,bairro,endereço,etc."></div>
+
+            </div>
+
+            <div>
+                <p>Para quais datas?</p>
+                <button onclick="mostrarSelectores()">Selecionar Intervalo de Data</button>
+                    <div id="selectores" style="display:none;">
+                        <div class="selectores">
+
+                            <div>
+                                <label for="dataInicial">Data Inicial:</label>
+                                <input type="date" id="dataInicial">
+
+                            </div>
+                            <div>
+                                <label for="dataFinal">Data Final:</label>
+                                <input type="date" id="dataFinal">
+
+                            </div>
+                       
+                        
+
+                       
+                    </div>
+
+                        <br>
+                <button onclick="mostrarIntervalo()">Mostrar Intervalo</button>
+                    </div>
+                    <p id="intervalo"></p>
+                
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        
+   
+    </div>
+
+
+    
+</div>
+
+</div>    
+</div>
+
+<button class="animate__animated animate__backInDown" type="button"><a href="index.html">Voltar</a></button>
+
+   
+
+   
+        
+
+
+    
+
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
