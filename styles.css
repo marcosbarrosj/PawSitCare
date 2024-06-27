@@ -298,7 +298,7 @@ cursor: pointer;
 
     }
 
-/* ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´ */
+/* ´´´´´´´´´´´´´´´´´´´´´´´´´´parte 1´´´´´´´´´´´´´´´´´´´´´´ */
 
  main .conteiner{
     text-align: center;
@@ -373,7 +373,6 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 }
 
 .conteiner-geral22{
-    width: 90%;
     padding: 10px;
     display: flex;
     background-color: #e7e7e7ad;
@@ -393,7 +392,6 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 }
 
 .conteiner-gera22{
-    width: 90%;
     border: 1px solid #519B7A;  
 
     padding: 10px;
@@ -464,7 +462,8 @@ main .conteiner .conteiner-geral .conteiner-geral2{
         cursor: pointer;
     }
     
-    
+    /* ´´´´´´´´´´´´´´´´´´´´´´´´´´parte 1´´´´´´´´´´´´´´´´´´´´´´ */
+
     
     main .conteiner{
         text-align: center;
@@ -482,8 +481,33 @@ main .conteiner .conteiner-geral .conteiner-geral2{
         margin-right: 0;
     }
     
-    
+    #conteiner-geral1{
+    }
 
+    .conteiner-geral111{
+        margin-right: none;
+    
+    }
+    
+    .conteiner-geral11{
+       flex-direction: column;
+       border: 1px solid #519B7A; 
+       margin-top: 5px; 
+
+    
+    }
+
+    .conteiner-geral11:hover{
+        background-color: #519b7a3d;
+    }
+      
+
+    .conteiner-geral1111{
+        text-align: center;
+        padding: 6px;
+        width: none;
+    
+    }
     
 
 
