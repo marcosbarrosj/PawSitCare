@@ -877,8 +877,8 @@ main .conteiner4 .content-geral{
 
 footer .conteiner .content-geral{
     grid-template-columns: none;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: none;
+    margin-right: none;
 }
 
 
