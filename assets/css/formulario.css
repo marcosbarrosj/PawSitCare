@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+header{
+    background: url("../img/gato.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+main .conteiner{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50% ; 
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    color: rgb(0, 0, 0);
+   
+
+
+}
+
+
+
+main .conteiner .conteiner-parte1{
+    padding: 10px;
+    background: chartreuse;
+
+
+}
+
+main .conteiner .conteiner-parte2{
+    padding: 10px;
+
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) 
+{
+header{
+background-position: center;
+background-size: cover;
+}
+
+
+header .conteiner{
+display: grid;
+grid-template-columns: none;
+margin-left: none;
+margin-right: none;
+
+}
+}
+
+    
