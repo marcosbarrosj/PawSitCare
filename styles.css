@@ -352,6 +352,17 @@ main .conteiner .conteiner-geral{
     margin-right: 20%;
 }
 
+main .conteiner  h1{
+    font-size: 20pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+    
+    }
+
 
 /* ´´´´´´´´´´´´´´´´´´´´´´´´´´  parte 1 manin´´´´´´´´´´´´´´´´´´´´´´ */
 
@@ -404,6 +415,24 @@ main .conteiner .conteiner-geral .conteiner-geral2{
 
 }
 
+main .conteiner .conteiner-geral .conteiner-geral2 button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #519B7A;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+main .conteiner .conteiner-geral .conteiner-geral2 button:hover{
+   color: #010103;
+
+
+}
+
 .conteiner-geral222{
     margin-top: 10px;
     margin-right: 20px;
@@ -441,6 +470,9 @@ background-color: white;
 }
 
 
+
+
+
 /* ´´´´´´´´´´´´´´´´´´´´´´´´´´ conteiner main parte 2´´´´´´´´´´´´´´´´´´´´´ */
 
 main .conteiner2{
@@ -469,14 +501,14 @@ margin-bottom: 60px;
 
 }
 main .conteiner2  h1{
-font-size: 30pt;
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-style: normal;
-margin-bottom: 20px;
-
-
-}
+    font-size: 20pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    
+    
+    }
 
 main .conteiner2 .content-geral h3{
 font-size: 15pt;
@@ -558,17 +590,17 @@ main .conteiner3 .content-geral h3,p{
   text-align: left;
 
 }
-main .conteiner3 h1{
+main .conteiner3  h1{
     font-size: 20pt;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     margin-bottom: 40px;
-
-
-
+    
     
     }
+
+
 main .conteiner3 .content-geral h3{
 font-size: 15pt;
 font-family: "Roboto", sans-serif;
