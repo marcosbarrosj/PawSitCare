@@ -174,3 +174,16 @@ button{
     }
 
 
+    
+@media only screen and (max-width: 1200px) {
+    .container-txt3{
+        grid-template-columns: none;
+        }
+       
+        .container-txt3 .selectores{
+            grid-template-columns: none; 
+               
+            }
+    }
+
+
